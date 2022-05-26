@@ -1,0 +1,124 @@
+.hero {
+    background-color: rgb(141, 6, 168);
+    background: rgba(141, 6, 168, 0.7);
+    border-top: solid transparent;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 230, 0, 0.89);
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+}
+
+body {
+    margin: 0%;
+    background-image: url(imagens2.0/animes2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: right bottom;
+}
+
+.hero nav ul {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.hero nav li {
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.hero nav a {
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(255, 153, 0);
+    display: block;
+    padding: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.content-sec {
+    background-color: rgba(255, 255, 255 , 0.6);
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+
+
+.card {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid;
+    margin: 20px;
+    background:rgba(114, 113, 113, 0.6);
+
+}
+
+.tp {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid;
+    border: rgba(0, 0, 0, 0.6);
+    margin: 20px;
+    background: rgb(114, 113, 113, 0.6);
+}
+
+.tp img {
+    width: 150px;
+    height: 100px;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+}
+
+#sub {
+    text-align: center;
+}
+
+.tituloh3 {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    background: rgba(255, 153, 0, 0.6);
+}
+
+.rodape {
+    height: 140px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    background-color: rgb(238, 134, 16);
+    padding-top: 30px;
+}
+
+.linha {
+    text-align: center;
+    margin-top: 26px;
+    margin-right: 40px;
+}
+
+.linha li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    text-shadow: 0px 0px 0px rgb(0, 0, 0);
+}
+
+.borda {
+    border-right: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    width: 200px;
+}
