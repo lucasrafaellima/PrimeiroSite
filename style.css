@@ -12,6 +12,18 @@ h1 {
     margin-top: 20px;
 }
 
+.texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 230, 0, 0.89);
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.preco {
+    font-size: 25px;
+}
+
 body {
     margin: 0%;
     background-image: url(imagens2.0/animes2.jpg);
