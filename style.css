@@ -68,6 +68,14 @@ main {
     color: rgb(0, 0, 0);
 }
 
+.card img {
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card img:hover {
+    transform: scale(1.04);
+}
 
 .card {
     display: inline-block;
@@ -75,7 +83,14 @@ main {
     border: 1px solid;
     margin: 20px;
     background:rgba(114, 113, 113, 0.6);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
 
+.card:hover {
+    background-color: rgba(73, 71, 71, 0.6);
+    color: azure;
+    transform: scale(1.04);
 }
 
 .tp {
@@ -85,11 +100,17 @@ main {
     border: rgba(0, 0, 0, 0.6);
     margin: 20px;
     background: rgb(114, 113, 113, 0.6);
+    box-sizing: border-box;
 }
 
 .tp img {
     width: 150px;
     height: 100px;
+}
+
+.tp:hover {
+    box-shadow: 0 0 15px;
+    transform: scale(1.1);
 }
 
 img {
@@ -104,6 +125,10 @@ img {
 .tituloh3 {
     border: 1px solid rgba(0, 0, 0, 0.6);
     background: rgba(255, 153, 0, 0.6);
+}
+
+.tituloh3:hover {
+    background-color: rgb(255, 153, 7);
 }
 
 .rodape {
