@@ -48,10 +48,18 @@ body {
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: rgb(255, 153, 0);
+    border-radius: 10px;
     display: block;
     padding: 2px;
     text-decoration: none;
     text-transform: uppercase;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 2px;
+}
+
+.hero nav a:hover {
+    box-shadow: 3px 2px 2px rgb(68, 67, 67);
+    color: rgb(68, 67, 67);
 }
 
 main {
@@ -91,6 +99,11 @@ main {
     background-color: rgba(73, 71, 71, 0.6);
     color: azure;
     transform: scale(1.04);
+}
+
+
+.estrelas {
+    font-size: 20px;
 }
 
 .tp {
