@@ -98,7 +98,7 @@ main {
 .card:hover {
     background-color: rgba(73, 71, 71, 0.6);
     color: azure;
-    transform: scale(1.04);
+    transform: scale(1.1);
 }
 
 
