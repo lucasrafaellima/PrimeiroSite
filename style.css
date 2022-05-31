@@ -1,6 +1,5 @@
 .hero {
-    background-color: rgb(141, 6, 168);
-    background: rgba(141, 6, 168, 0.7);
+    background: linear-gradient(rgba(141, 6, 168, 0.7), rgba(115, 12, 184, 0.8) 71%);
     border-top: solid transparent;
 }
 
