@@ -6,9 +6,12 @@
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgba(255, 230, 0, 0.89);
-    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    text-shadow: 3px 2px 1px rgb(0, 0, 0);
     text-align: center;
     margin-top: 20px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 30px;
 }
 
 .texto {
