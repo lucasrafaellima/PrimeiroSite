@@ -3,11 +3,21 @@ function showModal() {
     element.classList.add("show-modal");
 }
 
-//abre formulario
+function showSobre() {
+    var element = document.getElementById("criador");
+    element.classList.add("show-sobre");
+}
+
+//abre formularios
 
 function hideModal() {
     var element = document.getElementById("formule");
     element.classList.remove("show-modal");
+}
+
+function hideSobre() {
+    var element = document.getElementById("criador");
+    element.classList.remove("show-sobre");
 }
 
 //fecha formulario
@@ -71,7 +81,7 @@ function setErrorFor(input, message) {
     const formControl = input.parentElement;
     const small = formControl.querySelector("small");  
     
-    small.innrText = message;
+    small.innerText = message;
     formControl.className = "divisoes error";
     
 }
