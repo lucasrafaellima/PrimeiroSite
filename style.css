@@ -276,7 +276,7 @@ form {
 
 button {
     background-color: rgb(228, 152, 13);
-    border: 2px solid rgb(228, 152, 13);
+    border: 2px transparent;
     width: 101%;
     border-radius: 10px;
     padding: 10px;
@@ -370,9 +370,9 @@ button:hover {
     width: 598px;
     font-size: 20px;
     color: rgb(0, 0, 0);
-    border: 1px solid rgb(238, 134, 16);
-    text-align: center;
+    border: 1px solid rgb(238, 134, 16);;
     background-color: rgb(238, 134, 16);
+    text-align: center;
     font-family: 'Poppins', sans-serif; 
     margin: auto;
 }
